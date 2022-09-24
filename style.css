@@ -81,6 +81,7 @@ section {
         width: 100%;
         flex-direction: column;
         align-items: center;
+        margin: 0px auto 0px;
     }
 }
 
@@ -92,6 +93,12 @@ section {
 
 .container-wrap img{
     border-radius: 10px;
+}
+
+@media screen and (max-width:780px) {
+    .container-wrap img{
+        margin: 100px 0 0px;
+    }
 }
 
 .container-wrap p {
