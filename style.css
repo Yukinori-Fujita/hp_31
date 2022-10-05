@@ -58,10 +58,11 @@ section {
 
 .kv h1 {
     font-size: 80px;
-    color: rgba(0, 0, 0, 0.86);
+    color: pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* font-family: 'Oleo Script', cursive; */
     /* font-family: 'Pacifico', cursive; */
-    font-family: 'Abyssinica SIL', serif;
+    /* font-family: 'Abyssinica SIL', serif; */
     padding-left: 10%;
     padding-top: 35%;
 }
