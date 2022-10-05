@@ -9,6 +9,12 @@ header {
     /* height: 100vh; */
 }
 
+@media screen and (max-width:767px) {
+    header{
+        width: 80%;
+    }
+}
+
 .scroll {
     letter-spacing: 1px;
     font-size: 12px;
@@ -54,7 +60,8 @@ section {
     font-size: 80px;
     color: rgba(0, 0, 0, 0.86);
     /* font-family: 'Oleo Script', cursive; */
-    font-family: 'Pacifico', cursive;
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Abyssinica SIL', serif;
     padding-left: 10%;
     padding-top: 35%;
 }
